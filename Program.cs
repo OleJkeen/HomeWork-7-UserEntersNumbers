@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -20,7 +21,7 @@ namespace HomeWork_7_UserEntersNumbers
             Console.WriteLine("\nЧтобы посчитать сумму всех чисел введите: sum");
             Console.WriteLine("\nДля выхода из программы введите: exit");
             Console.WriteLine("\nВведите числа: ");
-            Console.WriteLine();
+
             userInput = Console.ReadLine();
 
             while (userInput != exitCommand)
